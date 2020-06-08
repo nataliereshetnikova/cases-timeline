@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Asap;
+    padding: 0;
+    margin: 0;
+    background-color: #1a1a1a;
+  }
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+.container-content {
+    max-width: 50em;
+    padding: 0 1em;
+  }
+
+#main{
+    width: 100vw; 
+    height: 80vh;
+}
+footer {
+    width: 100%;
+    height: 5vh;
+    line-height: 2em;
+    color: white;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
+
+
+header {
+  font-family: 'Asap', sans-serif;
+  width: 100%;
+  color: white;
+  background-color: #1a1a1a;
+
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    line-height: 2.5em;
+  }
+
+  header  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header  li {
+    display: inline-block;
+  }
+
+  header a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0 .5em;
+  }
+  header  a:hover{
+    color:rgba(162, 231, 148, 0.616);
+  }
+
+  header p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+  }
+
+.virusIcon{
+  height: 100%;
+}
+
+.legend {
+    color: gray;
+    background-color: rgb(38,38,38);
+    padding: .8em 1em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+.legend .orange{
+    border-bottom:2px dashed rgb(255, 187, 0);
+}
+.legend .orangered{
+  border-bottom:2px dashed rgb(255, 145, 0);
+}
+.legend .red{
+  border-bottom:2px dashed rgb(255, 0, 0);
+}
+.legend  p {
+    color: gray;
+    font-size: .8em;
+    text-align: center;
+    margin: 0;
+  }
